@@ -12,6 +12,8 @@ namespace Lab_1
             PrintArray(array); // Вызываем метод печати массива
 
             Console.WriteLine($"Индекс минимального элемента массива равен: {GetMinItemIndex(array)}"); // Вывод результата
+
+            Console.ReadKey(); // Что бы консоль сама не закрылась читаем anykey
         }
 
         private static int GetMinItemIndex(int[] array) // Метод поиска индекса минимального элемента

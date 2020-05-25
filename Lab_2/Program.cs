@@ -11,6 +11,8 @@ namespace Lab_2
             var array = InitArray(length); // вызываем метод инициализации массива
             var oddItemsSumm = GetOddItemsSumm(array); // вызываем метод суммирования нечетных элеметов
             Console.WriteLine($"Сумма нечетных элементов равна: {oddItemsSumm}"); // выводим результат на экран
+            
+            Console.ReadKey(); // Что бы консоль сама не закрылась читаем anykey
         }
         
         private static int[] InitArray(int length) // метод инициализации массива

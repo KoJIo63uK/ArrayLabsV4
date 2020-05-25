@@ -22,6 +22,8 @@ namespace Lab_3
 
                 Console.WriteLine($"Результат выражения равен: {result}"); // выводим результат на экран
             }
+            
+            Console.ReadKey(); // Что бы консоль сама не закрылась читаем anykey
         }
         
 
